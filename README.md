@@ -1,2 +1,2 @@
 # AutoKube
-A bash script to aquto deploy images through KubeCTL
+A bash script to auto deploy images through KubeCTL
