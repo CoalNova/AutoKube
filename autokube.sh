@@ -33,11 +33,11 @@ then
     fi
 else
     echo ""
-    kubectl describe pods -l=auto
+    kubectl describe pods -l app
     echo ""
-    kubectl get pods -l=auto -o wide
+    kubectl get pods -l app -o wide
     echo ""
-    kubectl get services -l=auto -o wide
+    kubectl get services -l auto -o wide
     echo -e "\nPass [-start] to start up auto, or [-stop] to stop auto."
 fi
     echo ""
